@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BootCamp.Api</name>
+    </assembly>
+    <members>
+        <member name="M:BootCamp.Api.Controllers.TodoController.GetTodoItems">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BootCamp.Api.Controllers.TodoController.GetTodoItem(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BootCamp.Api.Controllers.TokenController">
+            <summary>
+            Token Controller
+            </summary>
+        </member>
+        <member name="M:BootCamp.Api.Controllers.TokenController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,BootCamp.DataAccess.AppDbContext)">
+            <summary>
+            Token Controller
+            </summary>
+            <param name="configuration"></param>
+            <param name="db"></param>
+        </member>
+        <member name="M:BootCamp.Api.Controllers.TokenController.GetToken(BootCamp.Entities.LoginInfo)">
+            <summary>
+            Create Token
+            </summary>
+            <param name="request"> Login Information</param>
+            <returns></returns>
+        </member>
+        <member name="M:BootCamp.Api.Controllers.TokenController.RefreshToken(System.String)">
+            <summary>
+            Refresh Token
+            </summary>
+            <param name="refreshToken">Refresh Token GUID</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

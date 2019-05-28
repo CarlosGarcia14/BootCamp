@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "67839ffd-6fbb-4cd3-9a98-5187ecec709c",
+		"name": "BootCamp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Token",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json-patch+json",
+						"type": "text"
+					},
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Jane\",\r\n  \"password\": \"Pasword!\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44399/api/Accounts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44399",
+					"path": [
+						"api",
+						"Accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Refresh",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json-patch+json",
+						"type": "text"
+					},
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Jane\",\r\n  \"password\": \"Pasword!\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44399/api/Accounts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44399",
+					"path": [
+						"api",
+						"Accounts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get TODO",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json-patch+json",
+						"type": "text"
+					},
+					{
+						"key": "accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"Jane\",\r\n  \"password\": \"Pasword!\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44399/api/Accounts",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44399",
+					"path": [
+						"api",
+						"Accounts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
